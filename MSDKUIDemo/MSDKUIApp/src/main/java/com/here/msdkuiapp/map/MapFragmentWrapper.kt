@@ -231,6 +231,8 @@ class MapFragmentWrapper : RetainFragment() {
         box != null ?: map?.run {
             val newWidth = width - 2 * maxOf(state.zoomLeftMargin, state.zoomRightMargin)
             val newHeight = height - 2 * maxOf(state.zoomTopMargin, state.zoomBottomMargin)
+            print(newWidth)
+            print(newHeight)
             if (newWidth > 0 && newHeight > 0) {
                 zoomTo(box,
                         newWidth,

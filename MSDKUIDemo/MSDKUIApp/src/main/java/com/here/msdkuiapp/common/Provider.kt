@@ -33,7 +33,6 @@ import com.here.android.mpa.routing.RouteOptions
 import com.here.android.mpa.routing.RoutePlan
 import com.here.android.mpa.routing.RouteWaypoint
 import com.here.android.mpa.search.ReverseGeocodeRequest2
-import java.util.Locale
 
 /**
  * Provides HERE SDK objects by creating them.
@@ -80,7 +79,7 @@ class Provider {
      */
     fun providesReverseGeocodeRequest(cord: GeoCoordinate): ReverseGeocodeRequest2 {
         val ret = ReverseGeocodeRequest2(cord)
-        ret.locale = Locale.getDefault()
+       // ret.locale = Locale.getDefault()
         return ret
     }
 
