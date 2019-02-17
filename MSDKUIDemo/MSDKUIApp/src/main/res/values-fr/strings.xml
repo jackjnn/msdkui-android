@@ -56,7 +56,6 @@
   <string name="msdkui_app_routeplanner_getdirections">Calculer un itinéraire</string>
   <string name="msdkui_app_routeplanner_startchoosingwaypoint">Pour commencer, sélectionnez un point de départ et une destination</string>
   <string name="msdkui_app_routeresults_error">Aucun itinéraire trouvé.</string>
-  <string name="msdkui_app_routeresults_error_connection">Need an internet connection</string>
   <string name="msdkui_app_rp_teaser_description">Obtenez des itinéraires en voiture, en poids lourd, à vélo et à pieds.</string>
   <string name="msdkui_app_rp_teaser_title">Planification d\'itinéraire</string>
   <string name="msdkui_app_rp_waypoint_subtitle">Appuyez brièvement ou longuement sur la carte</string>
